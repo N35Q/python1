@@ -1,0 +1,44 @@
+🔁 Rutina básica (la que usarás siempre)
+
+Cada vez que cambies tu código:
+
+1️⃣ Guarda el archivo
+
+En VS Code:
+
+Ctrl + S
+
+⚠️ Esto solo guarda en tu PC, no en GitHub.
+
+2️⃣ Mira qué ha cambiado
+
+En la terminal:
+
+git status
+
+
+Verás los archivos modificados.
+
+3️⃣ Añade los cambios
+git add .
+
+
+(o solo un archivo: git add main.py)
+
+4️⃣ Haz un commit (guardar versión)
+git commit -m "explico qué he cambiado"
+
+
+Ejemplos de mensaje:
+
+"añado menú principal"
+
+"arreglo error en bucle"
+
+"mejora del cálculo"
+
+5️⃣ Sube los cambios a GitHub
+git push
+
+
+☁️ AHORA sí se guardan en la nube
